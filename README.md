@@ -14,10 +14,10 @@ The script will perform the following process:
 
 4. If the volume is approximately between 1-2 uL, this is the volume value. The dilution value is 'None'
 
--Otherwise, if the volume is greater than 2 uL: make this the volume value anyway, but print an error message that the sample is too dilute. The dilution value is 'None'
+- Otherwise, if the volume is greater than 2 uL: make this the volume value anyway, but print an error message that the sample is too dilute. The dilution value is 'None'
 
--Otherwise, if the volume is less than 1 uL: make a dilution (try 1/2X dilution first, then 1/3X, etc).
+- Otherwise, if the volume is less than 1 uL: make a dilution (try 1/2X dilution first, then 1/3X, etc).
 
--Add the dilution value to the dilution column (ex. 1/2X). Add the volume value to the volume column.
+5. Add the dilution value to the dilution column (ex. 1/2X). Add the volume value to the volume column.
 
 #Outputs a spreadsheet containing the required dilutions and sample volumes to add for the BP cloning reaction.
