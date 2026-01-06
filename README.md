@@ -2,7 +2,7 @@ The BP cloning reaction of Gateway Cloning requires that each DNA sample be conc
 
 #Input: spreadsheet that contains gene names (titled "Gene name"), DNA sequences (titled "BP cloning sequence"), and measured concentrations of the samples (titled "Concentration from Nanodrop (ng/uL)")
 
-#The script will perform the following process:
+The script will perform the following process:
 
   #Add column for the ng needed to get 25 fmol gene fragment.
       #ng needed to get 25 fmol gene fragment = (length of DNA sequence) x 0.0165
