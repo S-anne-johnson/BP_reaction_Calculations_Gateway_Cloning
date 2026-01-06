@@ -1,3 +1,5 @@
+The BP cloning reaction of Gateway Cloning requires that each DNA sample be concentrated enough to obtain 6-25 fmol by pipetting a minimum of 1 uL and maximum of 2 uL. If 6 fmol cannot be obtained from 2 uL, reaction efficiency may be negatively impacted, in which case you would need to concentrate your DNA. If 1 uL contains more than 25 fmol, you must dilute your sample so that 1-2 uL corresponds to 6-25 fmol. The purpose of this script is to automate these calculations for sample dilutions and volumes to add for the reaction. Note that the outputted dilutions and volumes are for a final DNA amount of 25 fmol.
+
 #Input: spreadsheet that contains gene names (titled "Gene name"), DNA sequences (titled "BP cloning sequence"), and measured concentrations of the samples (titled "Concentration from Nanodrop (ng/uL)")
 
 #The script will perform the following process:
