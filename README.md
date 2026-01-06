@@ -4,7 +4,7 @@ The BP cloning reaction of Gateway Cloning requires that each DNA sample be conc
 
 The script will perform the following process:
 
-1.Add column for the ng needed to get 25 fmol gene fragment.
+1. Add column for the ng needed to get 25 fmol gene fragment.
   
 - ng needed to get 25 fmol gene fragment = (length of DNA sequence) x 0.0165
 
